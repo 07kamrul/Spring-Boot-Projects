@@ -1,5 +1,0 @@
-package com.userinfo.exception;
-
-public class GlobalExceptionHandler {
-
-}

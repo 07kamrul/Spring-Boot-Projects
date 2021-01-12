@@ -1,5 +1,0 @@
-package com.userinfo.repository;
-
-public interface UserRepository {
-
-}
