@@ -1,0 +1,5 @@
+Application\Service\StudentService.class
+Application\Entity\Student.class
+Application\Application.class
+Application\Repository\StudentRepository.class
+Application\Controller\AppController.class

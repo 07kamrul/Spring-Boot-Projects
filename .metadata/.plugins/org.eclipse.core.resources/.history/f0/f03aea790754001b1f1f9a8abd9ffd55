@@ -1,0 +1,5 @@
+package com.userinfo.model;
+
+public class User {
+
+}

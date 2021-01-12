@@ -1,0 +1,27 @@
+package com.userinfo.service;
+
+import javax.naming.NameNotFoundException;
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+import com.userinfo.repository.UserRepository;
+
+
+public class UserDetailsServiceImpl implements UserDetailsService{
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Override
+	@Transactional(readOnly = true)
+	public UserDetails loadUserByEmail(String email) hrows NameNotFoundException{
+		User user = userRepository.findByEmail(name);
+		
+		Set<GrantedA>
+	}
+	
+
+}

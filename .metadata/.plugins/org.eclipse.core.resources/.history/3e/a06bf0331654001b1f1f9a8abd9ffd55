@@ -1,0 +1,5 @@
+package com.userinfo.controller;
+
+public class UserController {
+
+}

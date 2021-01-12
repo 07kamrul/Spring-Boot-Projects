@@ -1,0 +1,11 @@
+package com.userinfo.service;
+
+import com.userinfo.model.User;
+
+public interface UserService {
+	void save(User user);
+
+	User findByName(String name);
+
+
+}

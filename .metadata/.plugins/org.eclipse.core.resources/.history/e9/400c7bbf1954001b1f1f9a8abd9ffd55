@@ -1,0 +1,8 @@
+package com.userinfo.exception;
+
+import java.util.Date;
+
+public class ErrorDetails {
+	private Date timestamp;
+
+}

@@ -1,0 +1,6 @@
+package com.userinfo.service;
+
+@Component
+public class UserValidator implements Validator{
+
+}
