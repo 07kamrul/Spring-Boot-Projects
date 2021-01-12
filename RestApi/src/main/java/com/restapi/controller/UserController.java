@@ -92,7 +92,7 @@ public class UserController {
 		return userTypeRepository.save(userType);
 	}
 
-	@DeleteMapping("/user/usertype/{id}")
+	@DeleteMapping("/user/usertype/delete/{id}")
 	public void deleteUserType(@PathVariable("id") Integer id) {
 		userTypeRepository.deleteById(id);
 

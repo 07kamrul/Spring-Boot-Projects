@@ -1,0 +1,7 @@
+get user: http://192.168.100.101:9001/user/registration
+post user: http://192.168.100.101:9001/user/registration/add
+user login: http://192.168.100.101:9001/user/login?email=shariful@gmail.com&password=5416511
+get all user type:  http://192.168.100.101:9001/user/usertype/all
+get one user type: http://192.168.100.101:9001/user/usertype/1
+add user type: http://192.168.100.101:9001/user/usertype/add
+delete one user type: http://192.168.100.101:9001/user/usertype/delete/3
